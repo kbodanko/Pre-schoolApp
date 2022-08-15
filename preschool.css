@@ -31,6 +31,11 @@ h3 {
   margin-top: 10vh;
 }
 
+h4 {
+  margin-top: 2rem;
+  font-weight: 500;
+}
+
 a {
   color: #242424;
 }
@@ -262,15 +267,19 @@ li {
 .user_research_questions {
   display: flex;
   justify-content: space-between;
+  margin-top: 8vh;
 }
 
 .user_research_illustration {
   width: 35vw;
-  margin-top: 40vh;
 }
 
 .user_research_methods {
   margin: 3rem 0;
+}
+
+.user_research_IDI h3 {
+  margin-top: 0;
 }
 
 .user_research_IDI {
@@ -278,6 +287,7 @@ li {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1rem;
+  margin-top: 5rem;
 }
 
 .user_research_IDI ul,
@@ -306,7 +316,16 @@ li {
 .research_analysis_bottom {
   display: flex;
   justify-content: space-between;
-  margin: 15vh 0;
+  align-items: center;
+  margin-bottom: 5vh;
+}
+
+.research_analysis_top ul {
+  width: 50%;
+}
+
+.research_analysis_top p {
+  margin: 0;
 }
 
 .quote {
@@ -315,7 +334,11 @@ li {
 }
 
 .research_analysis_img {
-  width: 35%;
+  width: 30vw;
+}
+
+#larger {
+  width: 45vw;
 }
 
 .research_analysis_conclusions {
@@ -329,7 +352,7 @@ li {
 }
 
 .surveys {
-  margin-top: 45vh;
+  margin-top: 30vh;
 }
 
 .surveys_content {
@@ -339,7 +362,11 @@ li {
 }
 
 .surveys_questions {
-  list-style: none;
+  width: 32vw;
+}
+
+.surveys_questions li {
+  margin: .5rem 0;
 }
 
 .surveys_img {
@@ -362,7 +389,6 @@ li {
 }
 
 .chart {
-  width: 70vw;
   margin-bottom: 1rem;
 }
 
@@ -428,8 +454,21 @@ li {
   margin-top: 20vh;
 }
 
+.personas_img_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8vh;
+}
+
 .personas_img {
-  width: 100%;
+  width: 45%;
+}
+
+#personas_img1 {
+  margin-bottom: 10vh;
+}
+
+#personas_img2 {
   margin-top: 10vh;
 }
 
