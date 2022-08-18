@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Pre-schoolApp
 ## live: https://kbodanko.github.io/Pre-schoolApp/
 
@@ -20,6 +19,4 @@ Learning the process of creating internet tools from scratch, learning design an
 - usability
 - creating graphics
 - UI
-=======
-# Pre-schoolApp
->>>>>>> 2b70e05... Initial commit
+
