@@ -1,6 +1,8 @@
 $primary: #8B009E;
-$secondary: #ffc430;
-$dark: #242424;
+$secondary: #FFE86F;
+$secondary_light: #fff879;
+$dark: #3a3a3a;
+$darker: #242424;
 $white: white;
 
 html,
@@ -8,8 +10,18 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
     color: $dark;
     box-sizing: border-box;
+    // overflow-y: hidden;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: $darker;
 }
 
 h1 {
@@ -49,21 +61,29 @@ a {
 }
 
 ul {
-    line-height: 1.5;
+    line-height: 2;
+    font-size: .9rem;
 }
 
 span {
     font-weight: 600;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .text {
-    text-indent: 3vw;
+    width: 50%;
 }
 
 .about_project,
 .process,
-.conclusions {
-    padding: 0 10vw;
+.conclusions,
+.information_architecture {
+    padding: 0 8vw;
 }
 
 .home {
@@ -201,6 +221,7 @@ li {
 .logo_pattern_wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 3rem;
 }
 
@@ -281,7 +302,12 @@ li {
 .user_research_questions {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-top: 8vh;
+}
+
+.user_research_questions_content ul {
+    width: 35vw;
 }
 
 .user_research_illustration {
@@ -290,6 +316,36 @@ li {
 
 .user_research_methods {
     margin: 3rem 0;
+}
+
+.user_research_methods_wrapper {
+    display: flex;
+}
+
+.user_research_methods_wrapper p {
+    color: $darker;
+}
+
+.highlight_para {
+    // background-color: $secondary_light;
+    border: 3px solid $secondary;
+    padding: 0 .7rem;
+    border-radius: 4rem;
+    margin-right: 3rem;
+}
+
+.IDI_output {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.IDI_output h3 {
+    margin-top: 0;
+}
+
+.IDI_output ul {
+    width: 50vw;
 }
 
 .user_research_IDI h3 {
@@ -306,18 +362,17 @@ li {
 
 .user_research_IDI ul,
 .user_research_IDI li {
-    width: 40vw;
+    // width: 40vw;
     padding: 0;
 }
 
 
 .user_research_img {
-    width: 25vw;
-    margin-right: 5vw;
+    width: 15vw;
+    margin-left: 5vw;
 }
 
 .no_dashes {
-    list-style: none;
     word-wrap: break-word;
     padding: 0;
 }
@@ -336,7 +391,7 @@ li {
 }
 
 .research_analysis_top ul {
-    width: 50%;
+    width: 70%;
 }
 
 .research_analysis_top p {
@@ -397,7 +452,7 @@ li {
 .survey_data,
 .chart {
     width: 100%;
-    margin-top: 15vh;
+    margin-top: 5vh;
 }
 
 .surveys p {
@@ -408,6 +463,9 @@ li {
     margin-bottom: 1rem;
 }
 
+// .about_project_bg {
+//     background-color: $secondary;
+// }
 
 .about_project_explication {
     display: flex;
@@ -416,17 +474,21 @@ li {
     margin-top: 3rem;
 }
 
-.about_project_explication_content {
-    margin-top: -10vh;
-    margin-right: 5vw;
+.about_project_explication div:nth-child(1) {
+    margin-right: 10rem;
 }
 
-.about_project_explication_img {
-    width: 33vw;
-    padding: 2rem;
-    box-shadow: 2px 2px 8px 2px rgb(221, 221, 221);
-    border-radius: 24px;
-}
+// .about_project_explication_content {
+//     margin-top: -10vh;
+//     margin-right: 5vw;
+// }
+
+// .about_project_explication_img {
+//     width: 33vw;
+//     padding: 2rem;
+//     box-shadow: 2px 2px 8px 2px rgb(221, 221, 221);
+//     border-radius: 24px;
+// }
 
 .about_project_explication_signature {
     font-size: .7rem;
@@ -486,11 +548,16 @@ li {
 }
 
 #personas_img1 {
-    margin-bottom: 10vh;
+    margin-top: 10vh;
 }
 
 #personas_img2 {
-    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.information_architecture_img {
+    margin-top: 6rem;
+    width: 84vw;
 }
 
 // .persona_wrapper p {
@@ -625,7 +692,7 @@ footer p {
     width: 100%;
     text-align: end;
     padding: .2rem;
-    background-color: $dark;
+    background-color: $darker;
     color: white;
     font-size: .8rem;
     margin: 0;
