@@ -36,14 +36,15 @@ h2 {
     // padding: 0 .4rem;
     // border: 2px solid $secondary;
     // border-radius: 8px;
-    width: fit-content;
 }
 
-h2::after {
+h2::after,
+h1::after {
+    width: fit-content;
     display: block;
     content: '';
     border-bottom: 1.3rem solid $secondary;
-    width: 100%;
+    width: 10%;
     margin: -1.5rem 0 0 .5rem;
 }
 
@@ -75,14 +76,25 @@ span {
     justify-content: center;
 }
 
+.text_wrapper {
+    display: flex;
+    flex-direction: column;
+    // align-items: flex-end;
+}
+
 .text {
     width: 50%;
+}
+
+.tight {
+    width: 65%;
 }
 
 .about_project,
 .process,
 .conclusions,
-.information_architecture {
+.information_architecture,
+.wireframes {
     padding: 0 8vw;
 }
 
@@ -225,6 +237,9 @@ li {
     margin-top: 3rem;
 }
 
+.logo_pattern h2 {
+    margin-top: 0;
+}
 
 .logo_pattern_img {
     width: 40vw;
@@ -421,9 +436,9 @@ li {
     padding: 0;
 }
 
-.surveys {
-    margin-top: 30vh;
-}
+// .surveys {
+//     margin-top: 30vh;
+// }
 
 .surveys_content {
     display: flex;
@@ -463,9 +478,16 @@ li {
     margin-bottom: 1rem;
 }
 
-// .about_project_bg {
-//     background-color: $secondary;
-// }
+.about_project_bg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 9vh;
+}
+
+.about_project_img {
+    width: 35vw;
+}
 
 .about_project_explication {
     display: flex;
@@ -567,6 +589,24 @@ li {
 // .persona_img {
 //     width: 40vw;
 // }
+.wireframes {
+    display: flex;
+    flex-direction: column;
+    // align-items: end;
+
+}
+
+.wireframes_img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.para {
+    display: flex;
+    justify-content: end;
+}
 
 .about_me {
     position: relative;
