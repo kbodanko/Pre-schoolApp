@@ -285,7 +285,7 @@ li {
 .miro,
 .miro_right {
     display: flex;
-    align-items: flex-end;
+    align-items: baseline;
 }
 
 .miro a:hover,
@@ -622,17 +622,21 @@ li {
 }
 
 .about_me h2 {
-    margin-bottom: 0;
+    margin-bottom: 4rem;
 }
 
 .about_me_wrapper {
+    position: relative;
     display: flex;
     justify-content: space-between;
-    margin-top: -10vh;
+    // margin-top: -10rem;
 }
 
 .about_me_img {
     width: 50vw;
+    position: absolute;
+    right: 0;
+    top: -25vh;
 }
 
 .my_technologies {
@@ -658,7 +662,7 @@ li {
     display: flex;
     align-items: center;
     flex-direction: column-reverse;
-    margin-right: 2rem;
+    margin-right: 3rem;
     font-size: .8rem;
 }
 
@@ -672,7 +676,7 @@ li {
 }
 
 .tech_skill_icon {
-    width: 5vh;
+    width: 2vw;
 }
 
 .mail {
@@ -694,9 +698,9 @@ li {
 }
 
 .contact {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    // position: absolute;
+    // bottom: 0;
+    // width: 100%;
     display: flex;
     // justify-content: center;
     flex-direction: column;
