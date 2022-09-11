@@ -9,6 +9,10 @@ body {
   box-sizing: border-box;
 }
 
+body {
+  background: #f2f2f2 url("chrome://global/skin/media/imagedoc-lightnoise.png");
+}
+
 h1,
 h2,
 h3,
@@ -51,8 +55,13 @@ a {
 }
 
 ul {
-  line-height: 2;
   font-size: .9rem;
+}
+
+li {
+  line-height: 1.7;
+  padding: .3rem 2rem;
+  text-decoration: none;
 }
 
 span {
@@ -82,7 +91,9 @@ span {
 .process,
 .conclusions,
 .information_architecture,
-.wireframes {
+.wireframes,
+.proto_wrapper,
+.hi-fi {
   padding: 0 8vw;
 }
 
@@ -110,11 +121,6 @@ span {
   list-style: none;
 }
 
-li {
-  padding: 0 2rem;
-  text-decoration: none;
-}
-
 .menu li {
   white-space: nowrap;
 }
@@ -122,6 +128,10 @@ li {
 .menu li:hover {
   font-weight: 600;
   cursor: pointer;
+}
+
+.design_system_img {
+  width: 65vw;
 }
 
 .logo_wrapper {
@@ -155,7 +165,7 @@ li {
 }
 
 .home_content_wrapper {
-  margin-bottom: 20vh;
+  margin: 20vh 0;
 }
 
 .info_content_wrapper {
@@ -174,13 +184,6 @@ li {
 .neck_info_para {
   margin: 0 1rem 0 0;
   color: #8B009E;
-}
-
-.home_mockup {
-  background-image: url("img/iPhone14.png");
-  background-size: cover;
-  height: 40vw;
-  width: 36vw;
 }
 
 .underline_left,
@@ -355,11 +358,6 @@ li {
   align-items: center;
   margin-bottom: 1rem;
   margin-top: 5rem;
-}
-
-.user_research_IDI ul,
-.user_research_IDI li {
-  padding: 0;
 }
 
 .user_research_img {
@@ -558,6 +556,58 @@ li {
   justify-content: end;
 }
 
+.proto_wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.proto_click {
+  position: absolute;
+  top: 50%;
+  width: 20vw;
+  height: 14vw;
+}
+
+.embed_documentation_footer--documentationFooter--o0SFt {
+  display: none !important;
+}
+
+.header--headerClear--14eAa,
+.header--headerHidden--PE8nn {
+  border-bottom: none !important;
+}
+
+iframe {
+  width: 84vw;
+  height: 40rem;
+  border: none;
+  color: white;
+}
+
+.grey {
+  position: relative;
+  background-color: #EFEFEF;
+  width: 100vw;
+  height: 5rem;
+  margin-top: -5rem;
+}
+
+.embed_documentation_footer--documentationFooter--o0SFt {
+  display: none !important;
+  background-color: transparent !important;
+  color: transparent !important;
+}
+
+.hi-fi {
+  margin-top: 12rem;
+}
+
+.hi-fi_img {
+  width: 50vw;
+  margin-top: 8rem;
+}
+
 .about_me {
   position: relative;
   display: flex;
@@ -579,7 +629,7 @@ li {
 }
 
 .about_me_img {
-  width: 50vw;
+  width: 60vw;
   position: absolute;
   right: 0;
   top: -25vh;
@@ -590,6 +640,7 @@ li {
   flex-direction: column;
   justify-content: center;
   width: 40vw;
+  margin-top: 4vh;
   margin-bottom: 2vh;
 }
 
