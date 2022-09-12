@@ -1,6 +1,6 @@
 $primary: #8B009E;
 $secondary: #FFE86F;
-$secondary_light: #fff879;
+$secondary_light: #fffef0;
 $dark: #3a3a3a;
 $darker: #242424;
 $white: white;
@@ -18,7 +18,7 @@ body {
 }
 
 body {
-    background: hsl(0, 0%, 95%) url("chrome://global/skin/media/imagedoc-lightnoise.png");
+    background: hsl(45, 100%, 99%) url("chrome://global/skin/media/imagedoc-lightnoise.png");
 }
 
 h1,
@@ -645,7 +645,7 @@ iframe {
 
 .grey {
     position: relative;
-    background-color: #EFEFEF;
+    background-color: #fdfcf8;
     width: 100vw;
     height: 5rem;
     margin-top: -5rem;

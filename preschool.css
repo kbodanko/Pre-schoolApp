@@ -10,7 +10,7 @@ body {
 }
 
 body {
-  background: #f2f2f2 url("chrome://global/skin/media/imagedoc-lightnoise.png");
+  background: #fffefa url("chrome://global/skin/media/imagedoc-lightnoise.png");
 }
 
 h1,
@@ -587,7 +587,7 @@ iframe {
 
 .grey {
   position: relative;
-  background-color: #EFEFEF;
+  background-color: #fdfcf8;
   width: 100vw;
   height: 5rem;
   margin-top: -5rem;
