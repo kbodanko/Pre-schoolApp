@@ -697,7 +697,7 @@ iframe {
 }
 
 .about_me_img {
-    width: 60vw;
+    width: 55vw;
     position: absolute;
     right: 0;
     top: -25vh;
@@ -709,7 +709,7 @@ iframe {
     justify-content: center;
     // position: absolute;
     // bottom: 0;
-    width: 40vw;
+    // width: 40vw;
     margin-top: 4vh;
     margin-bottom: 2vh;
 }
@@ -718,16 +718,20 @@ iframe {
     margin-top: 0;
 }
 
+.tech_skill_wraper {
+    width: 35vw;
+}
+
 .tech_skill_wraper div {
     display: flex;
-    // justify-content: space-between;
+    justify-content: space-between;
 }
 
 .tech_skill {
     display: flex;
     align-items: center;
     flex-direction: column-reverse;
-    margin-right: 3rem;
+    margin-right: .3rem;
     font-size: .8rem;
 }
 
