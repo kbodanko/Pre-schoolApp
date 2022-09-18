@@ -93,7 +93,8 @@ span {
 .information_architecture,
 .wireframes,
 .proto_wrapper,
-.hi-fi {
+.hi-fi,
+.design_system {
   padding: 0 8vw;
 }
 
@@ -727,10 +728,10 @@ footer {
 footer p {
   width: 100%;
   text-align: end;
-  padding: .2rem;
+  padding: 0 .5rem;
   background-color: #242424;
   color: white;
-  font-size: .8rem;
+  font-size: .6rem;
   margin: 0;
 }
 
